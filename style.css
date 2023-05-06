@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'harry';
+    src: url('fonts/HARRYP__.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bohemian';
+    src: url('fonts/Bohemian\ Typewriter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:linear-gradient(rgba(17, 17, 17, 0.8), rgba( 20, 20, 20, 1)), url(images/ZbmBtk.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: #D1A85B;
+}
+
+h1, li a,
+form button {
+    font-family: 'harry', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+header {
+    margin-bottom: 16px;
+    padding: 10px;
+    background-color: rgba(43, 41, 41, 0.205);
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .container nav li  {
+    display: inline;
+    gap: 30px;
+}
+
+header .container nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    transition: all .1s ease-in-out;
+    color: #D1A85B;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.container nav li a:hover {
+    color:#FBE2B1 ;
+    background-color: #291B3F;
+}
+
+header .container img{
+    height: 72px;
+}
+
+.imagem-sobre,
+.imagens-torneio {
+    margin-right: 50px;
+}
+
+.conteudo-suacasa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-suacasa button {
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    font-family: 'bohemian', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px;
+    margin-top: 16px;
+    box-shadow: 2px 2px 8px 1px whitesmoke ;
+    transition: all .1s ease-in-out;
+}
+
+.conteudo-suacasa button:hover {
+    background-color:#291B3F ;
+    color: #FBE2B1;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px 1px  whitesmoke;
+}
+
+.imagem-sobre img, .imagens-torneio img {
+    width: 1000px;
+    margin-left: 50px;
+}
+
+.conteudo-sobre,
+.conteudo-torneio{
+    display: flex;
+    align-items: center;
+}
+
+.imagens-suacasa img {
+    width: 1000px; 
+    border-radius: 20px;
+}
+
+main h1{
+    color: #FBE2B1;
+    font-size: 50px;
+    padding-bottom: 26px;
+}
+
+h2 {
+    font-family: 'harry', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 26px;
+}
+
+h3 {
+    font-family: 'harry', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'bohemian';
+    color: white;
+}
+
+strong {
+    font-size: 22px;
+}
+
+form input,
+textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom:8px;
+    padding: 8px;
+    
+}
+
+form input,
+textarea {
+    font-family: 'bohemian', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+form button {
+    color: #D1A85B;
+    border: none;
+    font-size: 24px;
+    transition: all .1s ease-in-out;
+    box-shadow: 2px 2px 5px 1px  whitesmoke;
+}
+
+form button:hover {
+    color: #FBE2B1;
+    background-color:#291B3F;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 1px  whitesmoke;
+    border: none;
+}
+
+form textarea {
+    resize: none;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links img{
+    height: 36px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#torneio,
+#sobre,
+main h1 {
+    text-align: center;
+
+}
+
+#sobre,
+#torneio,
+#sua-casa {
+    margin-bottom: 26px;
+}
+
+main .line {
+    padding-top:170px;
+    border-top: 0.5px solid #D1A85B;
+}
+
+.box {
+    background-color:rgba(78, 77, 77, 0.205) ;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 4px 4px 5px 2px  rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color:#291B3F;
+    padding: 20px 0px;
+    margin-top: 26px;
+}
+
+footer p {
+    color: #FBE2B1;
+}
